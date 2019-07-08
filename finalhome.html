@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Guitar</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="guitarstyles.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script type="text/javascript">
+function change()
+{
+var x=document.getElementById("name").value;
+	if (x!="")
+	{
+	document.getElementById("para").innerHTML="Hello " +x+" and welcome to Guitarizona";
+	}
+	else
+	{
+	alert("Please enter your name into the text box");
+	}
+}
+</script>
+
+</head>
+<body>
+<h1><a href="finalhome.html">GUITARIZONA</a></h1>
+
+<div>
+<ul>
+<li class="w3-hover-opacity w3-animate-opacity">
+	<strong>
+	<a href="finalhome.html">HOME</a>
+	</strong>
+	</li><br>
+<li class="w3-hover-opacity w3-animate-opacity">
+	<strong>
+	<a href="finalblog.html">BLOG</a>
+	</strong>
+	</li><br>
+<li class="w3-hover-opacity w3-animate-opacity">
+	<strong>
+	<a href="finallessons.html">LESSONS</a>
+	</strong>
+	</li><br>
+<li class="w3-hover-opacity w3-animate-opacity">
+	<strong>
+	<a href="finalevents.html">EVENTS</a>
+	</strong>
+	</li><br>
+<li class="w3-hover-opacity w3-animate-opacity">
+	<strong>
+	<a href="finalcommunity.html">COMMUNITY</a>
+	</strong>
+	</li><br>
+<li class="w3-hover-opacity w3-animate-opacity">
+	<strong>
+	<a href="http://www.facebook.com/groups/1385815038332325">FACEBOOK*</a>
+	</strong>
+	</li><br>
+<img  id="Esteban"  src="estebansedona.jpg" alt="Guitar" height="300" width="150">
+<h6 style="color:#966F15">*No affiliation with link</h6>
+</ul>
+</div>
+<div>
+<h2><strong>Welcome!</strong></h2>
+<img  id="guitarist"  src="guitarist.jpg" alt="Guitarist" height="400" width="800" class="w3-hover-opacity w3-animate-opacity"><br>
+
+<b>Name:</b><input type="text" style="width:75px" id="name"/>
+<button type="button" id="button" onclick="change()">Enter</button><br>
+<p id="para" class="w3-animate-opacity">Hello and welcome to Guitarizona!</p>
+<p style="font-size:200%" class="w3-animate-opacity">
+This site is dedicated to the community of guitarists that call the Grand Canyon State home.<br>
+</p>
+
+</div>
+<div>
+<footer>
+   <small>
+     Copyright &copy; 2016 Guitarizona<br>
+      <a href="doug@bennett.com">doug@bennett.com</a>
+   </small>
+	<nav>   
+	<a href="finalhome.html">Home &nbsp;&nbsp;</a> 
+	<a href="finalblog.html">Blog&nbsp;&nbsp;</a> 
+	<a href="finallessons.html">Lessons&nbsp;&nbsp;</a>
+	<a href="finalevents.html">Events&nbsp;&nbsp;</a> 
+	<a href="finalcommunity.html">Community&nbsp;&nbsp;</a>
+	</nav>
+</footer>
+</div>
+</body>
+</html>
